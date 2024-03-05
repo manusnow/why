@@ -1,0 +1,122 @@
+
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #fdfaf5;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-title {
+    text-align: center;
+    color: #fdfaf5;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #e29578;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0px 0px 4px 2px rgb(0 0 0 / 7%);
+}
+
+.body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.title-text {
+    text-align: left;
+    color: #e29578;
+    font-size: 21px;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+
+.header-question {
+    font-size: 20px;
+    background-color: rgba(231, 170, 153, 0.1);
+    display: flex;
+
+}
+
+.num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: flex;
+    background: #3ea49a;
+    color: #fdfaf5;
+
+}
+
+.answer-container {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 8px;
+    overflow: hidden;
+    font-weight: 100;
+}
+
+.title-question {
+    height: flex;
+    display: flex;
+    align-items: center;
+    background: #83c5be;
+    padding: 10px;
+    flex: 1;
+    color: white;
+}
+
+.choice-container {
+    padding: 10px;
+    background: #d1ebe8;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+}
+
+.choice {
+    font-size: 20px;
+    border-radius: 6px;
+    padding: 10px 0px 10px 10px;
+    background: #b1d4d0;
+
+}
+.choice label{
+    margin-left: 6px;
+}
+.btn {
+    background: #006d77;
+    color: white;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+footer {
+    left: 0;
+    width: 100%;
+    background-color: #e29578;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    flex: 0 0 auto;
+}
